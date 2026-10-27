@@ -1,8 +1,8 @@
-/* Estilo común de las páginas públicas de FamiSave.
+/* Estilo común de las páginas públicas de Famisave.
    Sin fuentes ni scripts externos. Colores con contraste AA (>= 4.5:1). */
 
 :root {
-  --marca: #006d7a;        /* turquesa FamiSave oscurecido para texto (6:1 sobre blanco) */
+  --marca: #006d7a;        /* turquesa Famisave oscurecido para texto (6:1 sobre blanco) */
   --marca-fondo: #f0fbfc;
   --marca-borde: #c2e9ed;
   --fondo: #f4f6f8;

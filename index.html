@@ -1,221 +1,277 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Política de Privacidad Beta — FamiSave</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background-color: #f4f6f8;
-      color: #333333;
-      padding: 40px 20px;
-    }
-
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      background-color: #ffffff;
-      border-radius: 16px;
-      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-      overflow: hidden;
-    }
-
-    .header {
-      background-color: #008FA0;
-      padding: 40px 48px;
-      text-align: center;
-    }
-
-    .header h1 {
-      color: #ffffff;
-      font-size: 22px;
-      font-weight: 700;
-      letter-spacing: 0.3px;
-    }
-
-    .header .badge {
-      display: inline-block;
-      margin-top: 10px;
-      background-color: rgba(255,255,255,0.2);
-      color: #ffffff;
-      font-size: 12px;
-      font-weight: 600;
-      padding: 4px 14px;
-      border-radius: 20px;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-    }
-
-    .content {
-      padding: 40px 48px;
-    }
-
-    .section {
-      margin-bottom: 36px;
-    }
-
-    .section-title {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 14px;
-    }
-
-    .section-number {
-      background-color: #008FA0;
-      color: #ffffff;
-      font-size: 13px;
-      font-weight: 700;
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .section-title h2 {
-      font-size: 16px;
-      font-weight: 700;
-      color: #008FA0;
-    }
-
-    .section p {
-      font-size: 14px;
-      line-height: 1.7;
-      color: #555555;
-      margin-bottom: 12px;
-    }
-
-    .section ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 8px;
-    }
-
-    .section ul li {
-      font-size: 14px;
-      line-height: 1.7;
-      color: #555555;
-      padding: 10px 14px;
-      background-color: #f8fafb;
-      border-left: 3px solid #008FA0;
-      border-radius: 0 8px 8px 0;
-      margin-bottom: 8px;
-    }
-
-    .section ul li strong {
-      color: #333333;
-    }
-
-    .section ul li a {
-      color: #008FA0;
-      text-decoration: none;
-    }
-
-    .section ul li a:hover {
-      text-decoration: underline;
-    }
-
-    .highlight {
-      background-color: #f0fbfc;
-      border: 1px solid #c2e9ed;
-      border-radius: 10px;
-      padding: 16px 20px;
-      font-size: 14px;
-      line-height: 1.7;
-      color: #555555;
-      margin-top: 8px;
-    }
-
-    .footer {
-      background-color: #f4f6f8;
-      padding: 24px 48px;
-      text-align: center;
-      font-size: 12px;
-      color: #999999;
-      border-top: 1px solid #eeeeee;
-    }
-
-    .footer a {
-      color: #008FA0;
-      text-decoration: none;
-    }
-
-    @media (max-width: 600px) {
-      .header, .content, .footer {
-        padding: 28px 24px;
-      }
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad — Famisave</title>
+  <meta name="description" content="Cómo trata FAMISAVE SL los datos de las personas que usan la app Famisave.">
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <div class="container">
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <div class="contenedor">
 
-    <div class="header">
-      <h1>Política de Privacidad</h1>
-      <span class="badge">Fase Beta</span>
-    </div>
+    <header class="cabecera">
+      <p class="marca">Famisave</p>
+      <h1>Política de privacidad</h1>
+      <p class="meta">Última actualización: <time datetime="2026-10-27">27 de octubre de 2026</time> · Versión 3</p>
+    </header>
 
-    <div class="content">
+    <nav class="principal" aria-label="Páginas de Famisave">
+      <ul>
+        <li><a href="./" aria-current="page">Política de privacidad</a></li>
+        <li><a href="eliminar-cuenta/">Eliminar tu cuenta</a></li>
+        <li><a href="soporte/">Soporte</a></li>
+      </ul>
+    </nav>
 
-      <div class="section">
-        <div class="section-title">
-          <div class="section-number">1</div>
-          <h2>Responsable del Tratamiento</h2>
-        </div>
-        <p>El responsable de tus datos es <strong>FAMISAVE SL</strong> con CIF <strong>B26906966</strong>, con contacto en <a href="mailto:info@famisave.com" style="color:#008FA0;">info@famisave.com</a>.</p>
-      </div>
+    <main id="contenido">
 
-      <div class="section">
-        <div class="section-title">
-          <div class="section-number">2</div>
-          <h2>¿Qué datos recogemos y para qué?</h2>
-        </div>
-        <p>Durante esta fase de pruebas técnica (Beta), nuestra aplicación utiliza herramientas de análisis (SDKs) para entender cómo funciona el software y mejorar su estabilidad. Los datos que recogemos son:</p>
+      <p>Esta política explica cómo tratamos tus datos cuando usas la app <strong>Famisave</strong> (Android e iOS). La hemos escrito para que se entienda. Si algo no está claro, escríbenos a <a href="mailto:info@famisave.com">info@famisave.com</a>.</p>
+
+      <section class="resumen" aria-labelledby="lo-esencial">
+        <h2 id="lo-esencial">Lo esencial</h2>
         <ul>
-          <li><strong>Identificadores técnicos:</strong> ID de publicidad limitado, ID de instancia de la app y dirección IP (anonimizada).</li>
-          <li><strong>Datos de rendimiento:</strong> Informes de errores (crashes), tiempo de respuesta de las pantallas y funciones más utilizadas.</li>
-          <li><strong>Finalidad:</strong> La base legal para este tratamiento es nuestro <strong>interés legítimo</strong> (Art. 6.1.f RGPD) para garantizar la seguridad, corregir errores técnicos antes del lanzamiento oficial y mejorar la experiencia de usuario.</li>
+          <li><strong>Quién:</strong> FAMISAVE SL (CIF B26906966) es la responsable de tus datos.</li>
+          <li><strong>Para qué:</strong> para tu cuenta, para analizar tus facturas de luz y calcular tu ahorro, y para tramitar los cambios de tarifa que nos pidas.</li>
+          <li><strong>Tu factura:</strong> la lee una inteligencia artificial (Anthropic) por encargo nuestro. <strong>No guardamos la foto ni el PDF</strong>, solo los datos que extraemos.</li>
+          <li><strong>La comercializadora:</strong> solo recibe tus datos (teléfono, email y la oferta elegida) <strong>cuando tú pides el cambio</strong>.</li>
+          <li><strong>Opcional:</strong> las estadísticas de uso y los informes de errores solo se activan si das permiso, por separado. Puedes cambiarlo cuando quieras en «Tu cuenta».</li>
+          <li><strong>Gratis y sin publicidad:</strong> la app no tiene anuncios ni compras. Ganamos una comisión que paga la comercializadora solo si completas un cambio. <strong>No vendemos tus datos.</strong></li>
+          <li><strong>Tus derechos:</strong> acceso, rectificación, supresión, oposición, limitación y portabilidad, en <a href="mailto:info@famisave.com">info@famisave.com</a>. Puedes <a href="eliminar-cuenta/">eliminar tu cuenta</a> desde la app o sin ella.</li>
         </ul>
-      </div>
+      </section>
 
-      <div class="section">
-        <div class="section-title">
-          <div class="section-number">3</div>
-          <h2>Herramientas de Terceros</h2>
-        </div>
-        <p>Para realizar estas mediciones, utilizamos los siguientes servicios que cumplen con el RGPD:</p>
+      <nav class="indice" aria-labelledby="indice-titulo">
+        <h2 id="indice-titulo">Contenido</h2>
+        <ol>
+          <li><a href="#responsable">Quién es el responsable</a></li>
+          <li><a href="#datos">Qué datos tratamos</a></li>
+          <li><a href="#finalidades">Para qué los usamos y con qué base legal</a></li>
+          <li><a href="#destinatarios">Con quién compartimos tus datos</a></li>
+          <li><a href="#comision">Cómo se financia Famisave</a></li>
+          <li><a href="#transferencias">Transferencias internacionales</a></li>
+          <li><a href="#conservacion">Cuánto tiempo conservamos tus datos</a></li>
+          <li><a href="#derechos">Tus derechos</a></li>
+          <li><a href="#eliminar">Cómo eliminar tu cuenta</a></li>
+          <li><a href="#seguridad">Seguridad</a></li>
+          <li><a href="#menores">Menores</a></li>
+          <li><a href="#cambios">Cambios en esta política</a></li>
+        </ol>
+      </nav>
+
+      <section aria-labelledby="responsable">
+        <h2 id="responsable">1. Quién es el responsable</h2>
         <ul>
-          <li><strong>Google Firebase / Crashlytics:</strong> Para informes de errores y métricas de uso básico. Consulta la política de privacidad de Google en <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</li>
-          <li><strong>Anthropic Claude API:</strong> Para el análisis y extracción de datos de facturas eléctricas. Consulta la política de privacidad de Anthropic en <a href="https://anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>.</li>
+          <li><strong>Responsable:</strong> FAMISAVE SL</li>
+          <li><strong>CIF:</strong> B26906966</li>
+          <li><strong>Domicilio fiscal:</strong> Calle Comparsa Tercio de Flandes, 7 - 2.º A, 03610 Petrer (Alicante)</li>
+          <li><strong>Correo de contacto para privacidad:</strong> <a href="mailto:info@famisave.com">info@famisave.com</a></li>
+          <li><strong>Delegado de protección de datos:</strong> No hemos designado delegado de protección de datos; para cualquier cuestión, escribe a <a href="mailto:info@famisave.com">info@famisave.com</a>.</li>
         </ul>
-      </div>
+      </section>
 
-      <div class="section">
-        <div class="section-title">
-          <div class="section-number">4</div>
-          <h2>Conservación y Derechos</h2>
+      <section aria-labelledby="datos">
+        <h2 id="datos">2. Qué datos tratamos</h2>
+
+        <h3>a) Datos de tu cuenta (los das al registrarte)</h3>
+        <ul>
+          <li>Nombre y apellidos, correo electrónico y país de residencia.</li>
+          <li>Contraseña. La gestiona Google Firebase Authentication de forma cifrada; en Famisave no podemos verla.</li>
+          <li>Un identificador interno de usuario (tu «código de usuario»).</li>
+        </ul>
+
+        <h3>b) Tu factura de luz (solo si decides subirla)</h3>
+        <ul>
+          <li><strong>La foto o el PDF de la factura.</strong> Lo enviamos a nuestro servidor y a nuestro proveedor de inteligencia artificial para leer los datos. <strong>No guardamos la imagen ni el PDF.</strong> Ten en cuenta que la factura puede contener otros datos tuyos, como la dirección de suministro o el CUPS: solo extraemos los que se indican a continuación.</li>
+          <li><strong>Datos que extraemos de la factura:</strong> importe total, consumo en kWh, potencia contratada, días facturados y comercializadora actual.</li>
+          <li><strong>Resultado del análisis:</strong> consumo anual estimado, coste anual estimado con tu tarifa, tarifas comparadas, la tarifa con la que más ahorrarías y el ahorro estimado anual y mensual.</li>
+        </ul>
+
+        <h3>c) Tus solicitudes de cambio (solo si pulsas «Tramitar» / «Ejecutar mi cambio»)</h3>
+        <ul>
+          <li>Tipo de contrato, comercializadora y oferta elegidas, ahorro estimado, fecha y estado de la solicitud, tu email y tu código de usuario.</li>
+          <li><strong>Teléfono móvil:</strong> lo pedimos solo cuando solicitas un cambio de tarifa, para enviarlo junto con tu email a la comercializadora que elijas, que lo usará para contactarte y enviarte el SMS de confirmación o la firma. También lo guardamos en tu cuenta para no volver a pedírtelo; puedes borrarlo eliminando tu cuenta.</li>
+          <li><strong>Constancia de tu autorización:</strong> la versión del texto que aceptaste antes de confirmar el envío y la fecha en que lo aceptaste.</li>
+          <li>Si la comercializadora necesita más datos para el contrato (por ejemplo DNI, CUPS o IBAN), <strong>te los pide ella directamente</strong> al confirmar o firmar. La app de Famisave no los recoge.</li>
+        </ul>
+
+        <h3>d) Datos de funcionamiento del servicio (siempre)</h3>
+        <ul>
+          <li>Registro de tu elección de privacidad: versión del texto, qué aceptaste, fecha y sistema del móvil.</li>
+          <li>Tres eventos del servicio: la fecha de alta, la de tu primera factura y las solicitudes de cambio completadas.</li>
+          <li>Contadores diarios de uso, para limitar los análisis por día y evitar abusos.</li>
+          <li>Una comprobación de que las peticiones vienen de la app auténtica (Firebase App Check, que usa Play Integrity en Android y DeviceCheck/App Attest en iOS).</li>
+        </ul>
+
+        <h3>e) Solo si nos das permiso (opcionales, se eligen por separado)</h3>
+        <ul>
+          <li><strong>Estadísticas de uso</strong> (Google Analytics for Firebase y métricas propias): sesiones, pantallas y pestañas que visitas, uso del asistente Saavi, eventos de la app, un identificador de instalación y tu identificador de usuario, y datos técnicos del móvil (modelo, sistema e idioma). Google puede usar la dirección IP para estimar el país o la ciudad; nosotros no la guardamos. <span class="pendiente">[PENDIENTE: si se mantiene el ID de publicidad de Android (permiso AD_ID que añade el SDK de Analytics), mencionarlo aquí; si se quita, como se recomienda, borrar esta nota]</span></li>
+          <li><strong>Informes de errores</strong> (Firebase Crashlytics): cuando la app falla, datos técnicos del fallo y del móvil (modelo, sistema, memoria y orientación) y un identificador de instalación.</li>
+        </ul>
+
+        <h3>f) Permisos del móvil</h3>
+        <ul>
+          <li><strong>Cámara:</strong> para fotografiar la factura.</li>
+          <li><strong>Fotos y archivos:</strong> se usan con el selector del sistema y solo accedemos al archivo que eliges.</li>
+          <li><strong>Notificaciones:</strong> recordatorios que se programan en tu propio móvil; no se envían datos a nadie.</li>
+          <li>No usamos tu ubicación ni tus contactos.</li>
+        </ul>
+
+        <h3>g) Avisos que nos pides («Avísame cuando esté»)</h3>
+        <ul>
+          <li>Si en Gas o en Telefonía + ADSL pulsas <strong>«Avísame cuando esté»</strong>, guardamos en tu cuenta <strong>qué servicios</strong> te interesan y la <strong>fecha</strong> en que lo pediste, para avisarte cuando estén disponibles en la app.</li>
+          <li>Puedes quitar el aviso en la misma pantalla («Ya no quiero el aviso») y se borra al momento. También se borra si eliminas tu cuenta.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="finalidades">
+        <h2 id="finalidades">3. Para qué los usamos y con qué base legal</h2>
+        <div class="tabla">
+          <table>
+            <caption>Finalidades del tratamiento y su base legal (RGPD)</caption>
+            <thead>
+              <tr><th scope="col">Finalidad</th><th scope="col">Datos</th><th scope="col">Base legal</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Crear y gestionar tu cuenta</td><td>Cuenta (2.a)</td><td><strong>Ejecución del contrato</strong> que aceptas al registrarte (art. 6.1.b)</td></tr>
+              <tr><td>Analizar tu factura con inteligencia artificial y calcular tu ahorro</td><td>Factura y resultado (2.b)</td><td><strong>Ejecución del contrato</strong> (art. 6.1.b)</td></tr>
+              <tr><td>Tramitar el cambio que nos pidas: enviar a la comercializadora que elijas tu teléfono, tu email, el tipo de contrato, la oferta elegida, el ahorro estimado y tu código de usuario, <strong>solo cuando lo pides</strong></td><td>Cuenta y solicitud (2.a, 2.c)</td><td><strong>Ejecución del contrato</strong> y medidas precontractuales <strong>a petición tuya</strong> (art. 6.1.b)</td></tr>
+              <tr><td>Contactarte sobre tu solicitud</td><td>Email, teléfono, nombre y solicitud</td><td><strong>Ejecución del contrato</strong> (art. 6.1.b)</td></tr>
+              <tr><td>Avisarte cuando estén disponibles los servicios que nos pediste («Avísame cuando esté»)</td><td>Servicios por los que pides aviso y fecha (2.g)</td><td><strong>Tu solicitud</strong>: lo guardamos porque tú nos lo pides (art. 6.1.b)</td></tr>
+              <tr><td>Seguridad y prevención de abusos: límites diarios, comprobación de la app y registros técnicos</td><td>Identificador y contadores (2.d)</td><td><strong>Interés legítimo</strong> en proteger el servicio (art. 6.1.f)</td></tr>
+              <tr><td>Indicadores internos del servicio (número de altas, facturas analizadas y cambios completados), de forma agregada</td><td>Eventos del servicio (2.d)</td><td><strong>Interés legítimo</strong> en conocer el funcionamiento del servicio (art. 6.1.f) <span class="pendiente">[PENDIENTE: decisión abierta; alternativa: pedir consentimiento]</span></td></tr>
+              <tr><td>Gestionar y justificar la comisión que nos paga la comercializadora cuando se completa un cambio</td><td>Solicitud y confirmación del cambio que nos envía la comercializadora <span class="pendiente">[PENDIENTE: datos exactos que se intercambian, según los acuerdos con cada comercializadora]</span></td><td><strong>Interés legítimo</strong> y <strong>obligaciones legales</strong> contables y fiscales (arts. 6.1.f y 6.1.c)</td></tr>
+              <tr><td>Estadísticas de uso para mejorar la app</td><td>2.e</td><td><strong>Consentimiento</strong> (art. 6.1.a RGPD; art. 22.2 LSSI)</td></tr>
+              <tr><td>Informes de errores para arreglar fallos</td><td>2.e</td><td><strong>Consentimiento</strong> (art. 6.1.a RGPD; art. 22.2 LSSI)</td></tr>
+              <tr><td>Recordatorios en el móvil</td><td>Ninguno sale del móvil</td><td>Tu permiso de notificaciones en el sistema</td></tr>
+              <tr><td>Cumplir obligaciones legales y atender requerimientos de las autoridades</td><td>Los necesarios</td><td><strong>Obligación legal</strong> (art. 6.1.c)</td></tr>
+            </tbody>
+          </table>
         </div>
-        <p>Los datos recogidos durante la fase beta se mantendrán únicamente mientras sean necesarios para el desarrollo técnico de la app. Como usuario, tienes derecho a acceder, rectificar o solicitar la supresión de tus datos enviando un correo a <a href="mailto:info@famisave.com" style="color:#008FA0;">info@famisave.com</a>.</p>
-        <div class="highlight">
-          Al participar en esta beta y pulsar "Aceptar", confirmas que entiendes que estas métricas son esenciales para la mejora del producto.
+        <ul>
+          <li><strong>Los permisos de estadísticas y de informes de errores son voluntarios.</strong> Si los rechazas, la app funciona igual. Puedes cambiar tu elección en cualquier momento en <strong>«Tu cuenta»</strong>, con un interruptor para cada uno. Retirar el consentimiento no afecta a lo tratado antes.</li>
+          <li><strong>Decisiones automatizadas:</strong> el cálculo del ahorro es automático, pero es solo una estimación y <strong>no produce efectos jurídicos sobre ti</strong>. Tú decides si pides el cambio. No elaboramos perfiles para publicidad.</li>
+          <li><strong>No vendemos tus datos ni mostramos publicidad.</strong></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="destinatarios">
+        <h2 id="destinatarios">4. Con quién compartimos tus datos</h2>
+        <ul>
+          <li><strong>Google (Firebase): encargado del tratamiento.</strong> Nos da la autenticación, la base de datos (Cloud Firestore), las funciones del servidor, la comprobación de la app (App Check) y, si las aceptas, Analytics y Crashlytics. <span class="pendiente">[PENDIENTE: confirmar la entidad contratante según las condiciones de Firebase (Google Ireland Limited o Google LLC)]</span></li>
+          <li><strong>Anthropic PBC (Estados Unidos): encargado del tratamiento.</strong> Su inteligencia artificial (API de Claude) lee la foto o el PDF de tu factura y nos devuelve los datos extraídos. Trabaja por encargo nuestro, según su acuerdo de tratamiento de datos. Según sus condiciones comerciales, no usa estos datos para entrenar sus modelos y los conserva durante un tiempo limitado. <span class="pendiente">[PENDIENTE: confirmar que el acuerdo de tratamiento (DPA) de Anthropic está aceptado, el plazo de retención y si hay acuerdo de retención cero]</span></li>
+          <li><strong>La comercializadora que elijas: destinataria, solo si nos pides un cambio.</strong>
+            <ul>
+              <li>Cuando pulsas «Tramitar» y aceptas el envío, le enviamos tu <strong>teléfono y email</strong>, el <strong>tipo de contrato</strong>, la <strong>oferta elegida</strong>, el <strong>ahorro estimado</strong> y tu <strong>código de usuario</strong>. Nada más, y solo a la comercializadora que tú eliges.</li>
+              <li>Desde ese momento, la comercializadora trata tus datos como <strong>responsable independiente</strong>, según su propia política de privacidad, y es quien te contacta y cierra el contrato contigo (por SMS o firma electrónica).</li>
+              <li>Famisave puede recibir de ella la confirmación de que el cambio se ha completado, para cobrar su comisión.</li>
+              <li><span class="pendiente">[PENDIENTE: lista de comercializadoras con las que trabajamos, o enlace a ella]</span></li>
+            </ul>
+          </li>
+          <li><strong>Otros proveedores que nos ayudan a operar,</strong> por ejemplo el correo electrónico de la empresa <span class="pendiente">[PENDIENTE: proveedor de correo]</span> y el alojamiento de esta web (GitHub Pages, que no recibe datos de la app).</li>
+          <li><strong>Autoridades y tribunales,</strong> cuando la ley nos obligue.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="comision">
+        <h2 id="comision">5. Cómo se financia Famisave</h2>
+        <ul>
+          <li>La app es <strong>gratis</strong> para ti: no tiene anuncios ni compras dentro de la app.</li>
+          <li>Solo cobramos una <strong>comisión a la comercializadora</strong> si completas el cambio que pediste.</li>
+          <li>La comisión no influye en el orden de las ofertas: las ordenamos <strong>solo por el ahorro estimado</strong> para ti.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="transferencias">
+        <h2 id="transferencias">6. Transferencias internacionales</h2>
+        <ul>
+          <li><strong>Anthropic</strong> está en Estados Unidos. La transferencia se ampara en las <strong>cláusulas contractuales tipo</strong> aprobadas por la Comisión Europea (Decisión (UE) 2021/914), incluidas en su acuerdo de tratamiento de datos. <span class="pendiente">[PENDIENTE: confirmar]</span></li>
+          <li><strong>Google</strong> puede tratar datos fuera del Espacio Económico Europeo, por ejemplo los de autenticación, Analytics y Crashlytics. Google LLC está adherida al <strong>Marco de Privacidad de Datos UE-EE. UU.</strong>, y las condiciones de tratamiento de Firebase incluyen además cláusulas contractuales tipo. <span class="pendiente">[PENDIENTE: confirmar]</span></li>
+          <li><strong>Nuestra base de datos y nuestras funciones de servidor están en la UE</strong> (Fráncfort, Alemania).</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="conservacion">
+        <h2 id="conservacion">7. Cuánto tiempo conservamos tus datos</h2>
+        <div class="tabla">
+          <table>
+            <caption>Plazos de conservación</caption>
+            <thead>
+              <tr><th scope="col">Datos</th><th scope="col">Plazo</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Cuenta, teléfono, resultados de facturas, solicitudes de cambio (con la constancia de tu autorización), eventos del servicio y registro de consentimiento</td><td>Mientras tengas la cuenta. Al eliminarla se borran al momento, salvo lo que la ley nos obligue a guardar <span class="pendiente">[PENDIENTE: p. ej., datos de las tramitaciones con comisión y constancia de la autorización, durante el plazo contable, fiscal o de prueba que corresponda]</span></td></tr>
+              <tr><td>Servicios por los que pediste aviso («Avísame cuando esté»)</td><td>Hasta que quites el aviso o elimines tu cuenta</td></tr>
+              <tr><td>Foto o PDF de la factura</td><td>No los guardamos. Anthropic los conserva según sus condiciones, hasta <span class="pendiente">[PENDIENTE: plazo]</span></td></tr>
+              <tr><td>Contadores diarios de uso</td><td>Se sobrescriben cada día y se borran con la cuenta</td></tr>
+              <tr><td>Copias de seguridad</td><td>Hasta <span class="pendiente">[PENDIENTE: plazo, p. ej. 14 días; recuperación a un momento concreto, 7 días]</span></td></tr>
+              <tr><td>Estadísticas de Google Analytics (si las aceptaste)</td><td><span class="pendiente">[PENDIENTE: 2 o 14 meses, según la configuración]</span></td></tr>
+              <tr><td>Informes de Crashlytics (si los aceptaste)</td><td><span class="pendiente">[PENDIENTE: p. ej. 90 días]</span></td></tr>
+              <tr><td>Registros técnicos del servidor</td><td><span class="pendiente">[PENDIENTE: p. ej. 30 días]</span></td></tr>
+              <tr><td>Registro de las solicitudes de derechos que nos envíes</td><td><span class="pendiente">[PENDIENTE: plazo, p. ej. 3 años]</span></td></tr>
+              <tr><td>Datos que ya enviamos a una comercializadora</td><td>Los conserva esa comercializadora según su propia política de privacidad</td></tr>
+            </tbody>
+          </table>
         </div>
-      </div>
+      </section>
 
-    </div>
+      <section aria-labelledby="derechos">
+        <h2 id="derechos">8. Tus derechos</h2>
+        <p>Puedes pedirnos en cualquier momento:</p>
+        <ul>
+          <li><strong>acceder</strong> a tus datos, <strong>rectificarlos</strong> o <strong>suprimirlos</strong>;</li>
+          <li><strong>limitar</strong> su uso u <strong>oponerte</strong> a él;</li>
+          <li>su <strong>portabilidad</strong> (una copia en un formato de uso común);</li>
+          <li><strong>retirar tu consentimiento</strong> (en «Tu cuenta» o escribiéndonos).</li>
+        </ul>
+        <p><strong>Cómo:</strong> escribe a <a href="mailto:info@famisave.com">info@famisave.com</a> desde el correo de tu cuenta. Si no podemos comprobar que eres tú, te pediremos la información necesaria. Te responderemos en <strong>un mes como máximo</strong>.</p>
+        <p><strong>Reclamación:</strong> si crees que no hemos atendido bien tu petición, puedes reclamar ante la <strong>Agencia Española de Protección de Datos</strong> (<a href="https://www.aepd.es/">www.aepd.es</a>, C/ Jorge Juan 6, 28001 Madrid).</p>
+      </section>
 
-    <div class="footer">
-      © 2026 Famisave SL · <a href="mailto:info@famisave.com">info@famisave.com</a>
-    </div>
+      <section aria-labelledby="eliminar">
+        <h2 id="eliminar">9. Cómo eliminar tu cuenta</h2>
+        <ul>
+          <li><strong>Desde la app:</strong> «Tu cuenta» → <strong>«Eliminar mi cuenta»</strong> → «Eliminar». Se borran al momento tu cuenta y tus datos.</li>
+          <li><strong>Sin la app:</strong> sigue las instrucciones de <a href="eliminar-cuenta/">Eliminar tu cuenta</a> o escribe a <a href="mailto:info@famisave.com?subject=Eliminar%20mi%20cuenta">info@famisave.com</a> con el asunto «Eliminar mi cuenta».</li>
+          <li><strong>Lo que pueda quedar</strong> (copias de seguridad, estadísticas o informes ya enviados, y los datos que ya tenga una comercializadora a la que pediste un cambio) se explica en esa página y en el apartado 7.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="seguridad">
+        <h2 id="seguridad">10. Seguridad</h2>
+        <ul>
+          <li><strong>Cifrado:</strong> tus datos viajan cifrados (HTTPS/TLS) y se guardan cifrados en los servidores de Google.</li>
+          <li><strong>Acceso:</strong> las reglas de la base de datos solo dejan a cada usuario ver sus propios datos.</li>
+          <li><strong>Abusos:</strong> limitamos los usos diarios y comprobamos que las peticiones vienen de la app auténtica.</li>
+          <li><strong>Copias:</strong> hacemos copias de seguridad.</li>
+          <li><span class="pendiente">[PENDIENTE: medidas organizativas internas, como quién del equipo accede a los datos y por qué canal seguro se envían a las comercializadoras]</span></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="menores">
+        <h2 id="menores">11. Menores</h2>
+        <ul>
+          <li>Famisave está dirigida a <strong>personas mayores de 18 años</strong>, porque contratar suministros exige ser mayor de edad.</li>
+          <li>No recogemos a sabiendas datos de menores. Si eres padre, madre o tutor y crees que un menor nos ha dado datos, escríbenos y los borraremos.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="cambios">
+        <h2 id="cambios">12. Cambios en esta política</h2>
+        <ul>
+          <li>Si cambiamos esta política, actualizaremos la fecha y la versión de arriba.</li>
+          <li>Si el cambio afecta a lo que te pedimos, <strong>te lo mostraremos en la app</strong> y te volveremos a pedir tu elección.</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>FAMISAVE SL · CIF B26906966 · Calle Comparsa Tercio de Flandes, 7 - 2.º A, 03610 Petrer (Alicante)</p>
+      <p><a href="mailto:info@famisave.com">info@famisave.com</a> · <a href="eliminar-cuenta/">Eliminar tu cuenta</a> · <a href="soporte/">Soporte</a></p>
+    </footer>
 
   </div>
 </body>
